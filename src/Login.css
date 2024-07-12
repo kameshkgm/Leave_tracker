@@ -1,0 +1,97 @@
+.login-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.cc {
+  position: relative;
+  width: 100%;
+  background-color: lightblue;
+}
+
+.cc img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.company-name {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 3rem; /* Increase font size */
+  color: #22ff00; /* Dark gray */
+  text-align: center;
+}
+
+.portal-text {
+  position: absolute;
+  top: 80px; /* Adjust spacing */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 2rem; /* Increase font size */
+  color: #00ddff; /* Light gray */
+  text-align: center;
+}
+
+.buttons-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Define new animations */
+@keyframes fadeInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+/* Login.css */
+.container {
+  margin-top: 50px;
+}
+
+.card {
+  padding: 20px;
+}
+
+.img-fluid {
+  max-width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-danger {
+  color: red;
+}
